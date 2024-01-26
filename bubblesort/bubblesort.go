@@ -2,5 +2,7 @@ package bubblesort
 
 // BubbleSort sorts the given list using the bubble sort algorithm.
 func BubbleSort(list []int) {
-	// TODO
+	for i := 0; i < len(list); i++ {
+		BubbleUp(list)
+	}
 }
