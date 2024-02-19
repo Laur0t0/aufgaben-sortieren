@@ -7,7 +7,7 @@ import (
 )
 
 func TestMoveLef(t *testing.T) {
-	list := []int{3, 2, 1}
+	list := []int{3, 4, 2}
 	MoveLeft(list, 2)
-	testhelpers.AssertListsEqual(t, []int{1, 3, 2}, list)
+	testhelpers.AssertListsEqual(t, []int{2, 3, 4}, list)
 }
